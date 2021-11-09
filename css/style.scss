@@ -4,7 +4,6 @@ body{
 .slider{
   margin: 0 auto;
   border: 1px solid #000;
-  width: 75%;
   min-width: 0;
   padding: 0px 60px;
   .slick-track{
@@ -35,72 +34,72 @@ body{
       }
     }
   }
-  .slick-arrow{
-    border: 1px solid #000;
-    position: absolute;
-    z-index: 10;
-    font-size: 0;
-    width: 30px;
-    height: 50px;
-    &.slick-prev{
-      top:100px;
-      left: 10%;
-      background: url('../img/arleft.svg') 0 0 / 100% no-repeat;
-    }
-    &.slick-next{
-      top: 100px;
-      right: 10%;
-      background: url('../img/arright.svg') 0 0 /100% no-repeat;
-    }
-  }
+  // .slick-arrow{
+  //   border: 1px solid #000;
+  //   position: absolute;
+  //   z-index: 10;
+  //   font-size: 0;
+  //   width: 30px;
+  //   height: 50px;
+  //   &.slick-prev{
+  //     top:100px;
+  //     left: 10%;
+  //     background: url('../img/arleft.svg') 0 0 / 100% no-repeat;
+  //   }
+  //   &.slick-next{
+  //     top: 100px;
+  //     right: 10%;
+  //     background: url('../img/arright.svg') 0 0 /100% no-repeat;
+  //   }
+  // }
   img{
     max-width: 100%;
     height: auto;
   }
 }
-@media screen and (max-width:993px){
-  .slick-arrow{
-    width: 25px !important;
-  }
-  .slick-prev{
-    top:75px !important;
-  }
-  .slick-next{
-    top: 75px !important;
-  }
-}
-@media screen and (max-width:899px){
-  .slick-arrow{
-    width: 20px !important;
-  }
-  .slick-prev{
-    top:65px !important;
-  }
-  .slick-next{
-    top: 65px !important;
-  }
-}
-@media screen and (max-width:799px){
-  .slick-prev{
-    top:55px !important;
-  }
-  .slick-next{
-    top: 55px !important;
-  }
-}
-@media screen and (max-width:699px){
-  .slick-prev{
-    top:45px !important;
-  }
-  .slick-next{
-    top: 45px !important;
-  }
-}
-@media screen and (max-width:599px){
-  .slick-prev{
-    top:25px !important;
-  }
-  .slick-next{
-    top: 25px !important;
-  }
-}
+// @media screen and (max-width:993px){
+//   .slick-arrow{
+//     width: 25px !important;
+//   }
+//   .slick-prev{
+//     top:75px !important;
+//   }
+//   .slick-next{
+//     top: 75px !important;
+//   }
+// }
+// @media screen and (max-width:899px){
+//   .slick-arrow{
+//     width: 20px !important;
+//   }
+//   .slick-prev{
+//     top:65px !important;
+//   }
+//   .slick-next{
+//     top: 65px !important;
+//   }
+// }
+// @media screen and (max-width:799px){
+//   .slick-prev{
+//     top:55px !important;
+//   }
+//   .slick-next{
+//     top: 55px !important;
+//   }
+// }
+// @media screen and (max-width:699px){
+//   .slick-prev{
+//     top:45px !important;
+//   }
+//   .slick-next{
+//     top: 45px !important;
+//   }
+// }
+// @media screen and (max-width:599px){
+//   .slick-prev{
+//     top:25px !important;
+//   }
+//   .slick-next{
+//     top: 25px !important;
+//   }
+// }
